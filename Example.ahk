@@ -1,4 +1,5 @@
 #Requires AutoHotkey v2.0
+#SingleInstance Force
 #Include FuncTiles.ahk
 
 ; Create a launcher instance  
@@ -12,6 +13,7 @@ mylauncher.setFont(20)
 
 ; Optional - Set a custom default color for buttons (optional)
 mylauncher.setDefaultColor("0x2196F3")  ; Blue
+
 
 ; Optional - Set a array of window titles for context sensitive launch hotkey
 ; It has to be set before you set the LauncKey
@@ -31,7 +33,7 @@ mylauncher.setLaunchKey("^RButton")
 ; now add some tiles to the instance.
 ; first parameter is descriptiion text to be displayed on the tile
 ; second parameter is function callback
-; third parameter is tile color. eg - "0xffffff"
+; third parameter is tile background color. eg - "0xffffff"
 ; The text color will be automatically decided depending on the tile color
 ; Tip - if needed - to centre the text vertically on the tile add "`n" before the text string like below
 
