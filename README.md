@@ -1,6 +1,6 @@
 Introduction
 
-Tile Launcher is a sleek, colorful quick-launch tool built with AutoHotkey v2. 
+FuncTiles is a sleek, colorful quick-launch tool built with AutoHotkey v2. 
 It displays your favorite applications, files, or scripts in an easy-to-use grid layout, allowing you to launch them quickly with just a click.
 The script is fully customizable, so you can set up your grid the way you like—add as many tiles as you need, change their appearance, and make it fit your workflow. 
 Tile Launcher helps keep everything you need just a click away. 
