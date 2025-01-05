@@ -48,4 +48,5 @@ mylauncher.addFunction("`nTest Tile", msgbox, "0x3834ff")
 ; set parmeter 1 and it will look like a vertical toolbar
 mylauncher.setButtonsPerRow(3)  
 
-
+; After running the script, press launchkey - the tiles will show. Hover on tile you need and let go of the hotkey.
+; Corresponding Function will be executed.
